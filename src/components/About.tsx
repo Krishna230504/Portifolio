@@ -79,7 +79,11 @@ const About: React.FC = () => {
                 {
                   year: '2024',
                   title: 'Intern',
+<<<<<<< HEAD
                   company: 'BHEL(Bharat Heavy Electricals Limited)',
+=======
+                  company: 'BHEL(Bha)',
+>>>>>>> 619c606b01a0cd038d3df5c670f0fb84dca475d1
                   description: '◦ Optimized automation processes by implementing PLC logic, enhancing system efficiency by 5% through streamlined signal processing and reduced cycle times.'
                 }
               ].map((item, index) => (

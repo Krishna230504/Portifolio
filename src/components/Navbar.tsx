@@ -35,7 +35,11 @@ const Navbar: React.FC = () => {
         </div>
         
         <a
+<<<<<<< HEAD
           href="/original%20(1).pdf"
+=======
+          href="/KV%20latex%20resume(ATS2).pdf"
+>>>>>>> 619c606b01a0cd038d3df5c670f0fb84dca475d1
           target="_blank"
           rel="noopener noreferrer"
           className="text-white border-neon-purple hover:bg-neon-purple/20 hover:text-neon-purple interactive"

@@ -20,12 +20,17 @@ const Skills: React.FC = () => {
     { name: 'Node.js', level: 75, icon: '🟢', color: 'from-green-400 to-green-600' },
     { name: 'HTML/CSS', level: 95, icon: '🎨', color: 'from-orange-400 to-red-500' },
     { name: 'UI/UX Design', level: 85, icon: '🎯', color: 'from-neon-purple to-neon-pink' },
+<<<<<<< HEAD
     { name: 'Express.js', level: 80, icon: '⚡', color: 'from-gray-600 to-gray-900' },
     { name: 'Tailwind CSS', level: 90, icon: '🌊', color: 'from-cyan-400 to-blue-500' },
     { name: 'Generative AI', level: 80, icon: '🤖', color: 'from-fuchsia-500 to-purple-700' },
     { name: 'Google Firebase', level: 75, icon: '🔥', color: 'from-yellow-400 to-orange-600' },
     { name: 'Machine Learning', level: 85, icon: '🧠', color: 'from-green-300 to-blue-500' },
     { name: 'Streamlit', level: 70, icon: '📊', color: 'from-pink-400 to-red-500' },
+=======
+    { name: 'Next.js', level: 80, icon: '⚡', color: 'from-gray-600 to-gray-900' },
+    { name: 'Tailwind CSS', level: 90, icon: '🌊', color: 'from-cyan-400 to-blue-500' },
+>>>>>>> 619c606b01a0cd038d3df5c670f0fb84dca475d1
   ];
 
   return (
@@ -79,7 +84,11 @@ const Skills: React.FC = () => {
             </p>
             
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-center">
+<<<<<<< HEAD
               {['Leadership', 'Creative Thinking', 'Communication', 'Team Collaboration', 'Adaptability', 'Attention to Detail'].map((skill, index) => (
+=======
+              {['Problem Solving', 'Creative Thinking', 'Communication', 'Team Collaboration', 'Adaptability', 'Attention to Detail'].map((skill, index) => (
+>>>>>>> 619c606b01a0cd038d3df5c670f0fb84dca475d1
                 <div 
                   key={skill} 
                   className="py-2 px-4 rounded-full bg-secondary border border-neon-purple/30 text-sm"

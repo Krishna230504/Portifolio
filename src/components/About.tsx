@@ -56,6 +56,7 @@ const About: React.FC = () => {
             <div className="grid grid-cols-3 gap-4 animate-slide-right" style={{ animationDelay: '0.4s' }}>
               <StatCard icon={<Briefcase className="h-6 w-6" />} value="1+" label="Years Experience" />
               <StatCard icon={<Award className="h-6 w-6" />} value="5+" label="Completed Projects" />
+              <StatCard icon={<Users className="h-6 w-6" />} value="Team" label="Collaboration" />
             </div>
           </div>
         </div>
@@ -79,13 +80,10 @@ const About: React.FC = () => {
                 {
                   year: '2024',
                   title: 'Intern',
-<<<<<<< HEAD
-                  company: 'BHEL(Bharat Heavy Electricals Limited)',
-=======
-                  company: 'BHEL(Bha)',
->>>>>>> 619c606b01a0cd038d3df5c670f0fb84dca475d1
-                  description: '◦ Optimized automation processes by implementing PLC logic, enhancing system efficiency by 5% through streamlined signal processing and reduced cycle times.'
+                  company: 'BHEL( Bharat Heavy Electricals Limited)',
+                  description: 'Optimized PLC logic to boost system efficiency by 5%, streamlining signal processing and working with 5+ CNC machines.'
                 }
+
               ].map((item, index) => (
                 <div 
                   key={item.year} 
